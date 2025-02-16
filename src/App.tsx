@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       {isVisible ? (
-        <div className="fixed w-screen h-screen bg-black/20 backdrop-blur-sm flex flex-col justify-center items-center ">
+        <div className="fixed inset-0 z-50 bg-black/20 backdrop-blur-sm flex flex-col justify-center items-center ">
           <div className="bg-white text-black  h-[50px] w-[500px] mt-7 flex justify-between items-center px-4 rounded-md">
             Verify your Email{" "}
             <button
